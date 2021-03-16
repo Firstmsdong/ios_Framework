@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D41EE3C2600FF5E00EF9838 /* MSD_MVVM_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D41EE3B2600FF5E00EF9838 /* MSD_MVVM_Cell.m */; };
+		6D41EE422601019A00EF9838 /* MVVM_ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D41EE412601019A00EF9838 /* MVVM_ViewModel.m */; };
+		6D41EE482601049700EF9838 /* MSD_MVVM_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D41EE472601049700EF9838 /* MSD_MVVM_View.m */; };
 		6DA2C86C2600970400B5A322 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2C86B2600970400B5A322 /* AppDelegate.m */; };
 		6DA2C86F2600970400B5A322 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2C86E2600970400B5A322 /* SceneDelegate.m */; };
 		6DA2C8722600970400B5A322 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2C8712600970400B5A322 /* ViewController.m */; };
@@ -17,6 +20,18 @@
 		6DA2C8802600970600B5A322 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2C87F2600970600B5A322 /* main.m */; };
 		6DA2C88A2600970700B5A322 /* ios_FrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2C8892600970700B5A322 /* ios_FrameworkTests.m */; };
 		6DA2C8952600970700B5A322 /* ios_FrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2C8942600970700B5A322 /* ios_FrameworkUITests.m */; };
+		6DA2C8D92600A07300B5A322 /* MXTabBarCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2C8C92600A07300B5A322 /* MXTabBarCenterButton.m */; };
+		6DA2C8DA2600A07300B5A322 /* tabbar_classification_fill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DA2C8CA2600A07300B5A322 /* tabbar_classification_fill@2x.png */; };
+		6DA2C8DB2600A07300B5A322 /* MXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2C8CB2600A07300B5A322 /* MXTabBarController.m */; };
+		6DA2C8DC2600A07300B5A322 /* MXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2C8CF2600A07300B5A322 /* MXTabBar.m */; };
+		6DA2C8DD2600A07300B5A322 /* UIImageView+ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2C8D22600A07300B5A322 /* UIImageView+ImageView.m */; };
+		6DA2C8DE2600A07300B5A322 /* UILabel+Labbel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2C8D42600A07300B5A322 /* UILabel+Labbel.m */; };
+		6DA2C8DF2600A07300B5A322 /* UIButton+MSDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2C8D52600A07300B5A322 /* UIButton+MSDButton.m */; };
+		6DA2C8E02600A07300B5A322 /* UITextField+MSDTextFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2C8D82600A07300B5A322 /* UITextField+MSDTextFile.m */; };
+		6DA2C8EA2600A1B700B5A322 /* MSD_MVVM_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2C8E92600A1B700B5A322 /* MSD_MVVM_ViewController.m */; };
+		6DA2C8F02600A2B700B5A322 /* MSD_MVVM_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2C8EF2600A2B700B5A322 /* MSD_MVVM_Model.m */; };
+		6DA2C8F82600AD5900B5A322 /* MVVM_Base_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2C8F72600AD5900B5A322 /* MVVM_Base_ViewController.m */; };
+		6DA2C8FE2600AD8D00B5A322 /* MVVM_Base_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2C8FD2600AD8D00B5A322 /* MVVM_Base_View.m */; };
 		AA52E9A72BD590AD92A23369 /* libPods-ios_Framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E34ECF8BD5958F0C3267F75 /* libPods-ios_Framework.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +55,12 @@
 /* Begin PBXFileReference section */
 		0AC38BEB435B3D0F93662A79 /* Pods-ios_Framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_Framework.debug.xcconfig"; path = "Target Support Files/Pods-ios_Framework/Pods-ios_Framework.debug.xcconfig"; sourceTree = "<group>"; };
 		43F67C472EBE015F58E1DE69 /* Pods-ios_Framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_Framework.release.xcconfig"; path = "Target Support Files/Pods-ios_Framework/Pods-ios_Framework.release.xcconfig"; sourceTree = "<group>"; };
+		6D41EE3A2600FF5E00EF9838 /* MSD_MVVM_Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSD_MVVM_Cell.h; sourceTree = "<group>"; };
+		6D41EE3B2600FF5E00EF9838 /* MSD_MVVM_Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSD_MVVM_Cell.m; sourceTree = "<group>"; };
+		6D41EE402601019A00EF9838 /* MVVM_ViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVM_ViewModel.h; sourceTree = "<group>"; };
+		6D41EE412601019A00EF9838 /* MVVM_ViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVM_ViewModel.m; sourceTree = "<group>"; };
+		6D41EE462601049700EF9838 /* MSD_MVVM_View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSD_MVVM_View.h; sourceTree = "<group>"; };
+		6D41EE472601049700EF9838 /* MSD_MVVM_View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSD_MVVM_View.m; sourceTree = "<group>"; };
 		6DA2C8672600970300B5A322 /* ios_Framework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_Framework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA2C86A2600970400B5A322 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6DA2C86B2600970400B5A322 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,6 +80,30 @@
 		6DA2C8902600970700B5A322 /* ios_FrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_FrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA2C8942600970700B5A322 /* ios_FrameworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_FrameworkUITests.m; sourceTree = "<group>"; };
 		6DA2C8962600970700B5A322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA2C8B226009B5C00B5A322 /* PCHFile.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCHFile.pch; sourceTree = "<group>"; };
+		6DA2C8C92600A07300B5A322 /* MXTabBarCenterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXTabBarCenterButton.m; sourceTree = "<group>"; };
+		6DA2C8CA2600A07300B5A322 /* tabbar_classification_fill@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_classification_fill@2x.png"; sourceTree = "<group>"; };
+		6DA2C8CB2600A07300B5A322 /* MXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXTabBarController.m; sourceTree = "<group>"; };
+		6DA2C8CC2600A07300B5A322 /* MXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXTabBar.h; sourceTree = "<group>"; };
+		6DA2C8CD2600A07300B5A322 /* MXTabBarCenterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXTabBarCenterButton.h; sourceTree = "<group>"; };
+		6DA2C8CE2600A07300B5A322 /* MXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXTabBarController.h; sourceTree = "<group>"; };
+		6DA2C8CF2600A07300B5A322 /* MXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXTabBar.m; sourceTree = "<group>"; };
+		6DA2C8D12600A07300B5A322 /* UIButton+MSDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MSDButton.h"; sourceTree = "<group>"; };
+		6DA2C8D22600A07300B5A322 /* UIImageView+ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImageView.m"; sourceTree = "<group>"; };
+		6DA2C8D32600A07300B5A322 /* UITextField+MSDTextFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+MSDTextFile.h"; sourceTree = "<group>"; };
+		6DA2C8D42600A07300B5A322 /* UILabel+Labbel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Labbel.m"; sourceTree = "<group>"; };
+		6DA2C8D52600A07300B5A322 /* UIButton+MSDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MSDButton.m"; sourceTree = "<group>"; };
+		6DA2C8D62600A07300B5A322 /* UIImageView+ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ImageView.h"; sourceTree = "<group>"; };
+		6DA2C8D72600A07300B5A322 /* UILabel+Labbel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Labbel.h"; sourceTree = "<group>"; };
+		6DA2C8D82600A07300B5A322 /* UITextField+MSDTextFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+MSDTextFile.m"; sourceTree = "<group>"; };
+		6DA2C8E82600A1B700B5A322 /* MSD_MVVM_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSD_MVVM_ViewController.h; sourceTree = "<group>"; };
+		6DA2C8E92600A1B700B5A322 /* MSD_MVVM_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSD_MVVM_ViewController.m; sourceTree = "<group>"; };
+		6DA2C8EE2600A2B700B5A322 /* MSD_MVVM_Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSD_MVVM_Model.h; sourceTree = "<group>"; };
+		6DA2C8EF2600A2B700B5A322 /* MSD_MVVM_Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSD_MVVM_Model.m; sourceTree = "<group>"; };
+		6DA2C8F62600AD5900B5A322 /* MVVM_Base_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVM_Base_ViewController.h; sourceTree = "<group>"; };
+		6DA2C8F72600AD5900B5A322 /* MVVM_Base_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVM_Base_ViewController.m; sourceTree = "<group>"; };
+		6DA2C8FC2600AD8D00B5A322 /* MVVM_Base_View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVM_Base_View.h; sourceTree = "<group>"; };
+		6DA2C8FD2600AD8D00B5A322 /* MVVM_Base_View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVM_Base_View.m; sourceTree = "<group>"; };
 		9E34ECF8BD5958F0C3267F75 /* libPods-ios_Framework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios_Framework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -94,7 +139,6 @@
 				0AC38BEB435B3D0F93662A79 /* Pods-ios_Framework.debug.xcconfig */,
 				43F67C472EBE015F58E1DE69 /* Pods-ios_Framework.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -123,6 +167,11 @@
 		6DA2C8692600970400B5A322 /* ios_Framework */ = {
 			isa = PBXGroup;
 			children = (
+				6DA2C8C72600A07300B5A322 /* MSDTools */,
+				6DA2C8AE26009B2500B5A322 /* MSDManage */,
+				6DA2C8B026009B2500B5A322 /* MVC */,
+				6DA2C8B126009B2500B5A322 /* MVP */,
+				6DA2C8AD26009B2500B5A322 /* MVVM */,
 				6DA2C86A2600970400B5A322 /* AppDelegate.h */,
 				6DA2C86B2600970400B5A322 /* AppDelegate.m */,
 				6DA2C86D2600970400B5A322 /* SceneDelegate.h */,
@@ -155,6 +204,135 @@
 				6DA2C8962600970700B5A322 /* Info.plist */,
 			);
 			path = ios_FrameworkUITests;
+			sourceTree = "<group>";
+		};
+		6DA2C8AD26009B2500B5A322 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				6DA2C8F52600AD3800B5A322 /* MVVM_Base */,
+				6DA2C8E42600A15700B5A322 /* MVVM_Controller */,
+				6DA2C8E52600A15700B5A322 /* MVVM_Model */,
+				6DA2C8E72600A15700B5A322 /* MVVM_View */,
+				6DA2C8E62600A15700B5A322 /* MVVM_ViewModel */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		6DA2C8AE26009B2500B5A322 /* MSDManage */ = {
+			isa = PBXGroup;
+			children = (
+				6DA2C8AF26009B2500B5A322 /* PHCfile */,
+			);
+			path = MSDManage;
+			sourceTree = "<group>";
+		};
+		6DA2C8AF26009B2500B5A322 /* PHCfile */ = {
+			isa = PBXGroup;
+			children = (
+				6DA2C8B226009B5C00B5A322 /* PCHFile.pch */,
+			);
+			path = PHCfile;
+			sourceTree = "<group>";
+		};
+		6DA2C8B026009B2500B5A322 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		6DA2C8B126009B2500B5A322 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		6DA2C8C72600A07300B5A322 /* MSDTools */ = {
+			isa = PBXGroup;
+			children = (
+				6DA2C8C82600A07300B5A322 /* MSDTabBarFile */,
+				6DA2C8D02600A07300B5A322 /* MSDEncapsulation */,
+			);
+			path = MSDTools;
+			sourceTree = "<group>";
+		};
+		6DA2C8C82600A07300B5A322 /* MSDTabBarFile */ = {
+			isa = PBXGroup;
+			children = (
+				6DA2C8C92600A07300B5A322 /* MXTabBarCenterButton.m */,
+				6DA2C8CA2600A07300B5A322 /* tabbar_classification_fill@2x.png */,
+				6DA2C8CB2600A07300B5A322 /* MXTabBarController.m */,
+				6DA2C8CC2600A07300B5A322 /* MXTabBar.h */,
+				6DA2C8CD2600A07300B5A322 /* MXTabBarCenterButton.h */,
+				6DA2C8CE2600A07300B5A322 /* MXTabBarController.h */,
+				6DA2C8CF2600A07300B5A322 /* MXTabBar.m */,
+			);
+			path = MSDTabBarFile;
+			sourceTree = "<group>";
+		};
+		6DA2C8D02600A07300B5A322 /* MSDEncapsulation */ = {
+			isa = PBXGroup;
+			children = (
+				6DA2C8D12600A07300B5A322 /* UIButton+MSDButton.h */,
+				6DA2C8D22600A07300B5A322 /* UIImageView+ImageView.m */,
+				6DA2C8D32600A07300B5A322 /* UITextField+MSDTextFile.h */,
+				6DA2C8D42600A07300B5A322 /* UILabel+Labbel.m */,
+				6DA2C8D52600A07300B5A322 /* UIButton+MSDButton.m */,
+				6DA2C8D62600A07300B5A322 /* UIImageView+ImageView.h */,
+				6DA2C8D72600A07300B5A322 /* UILabel+Labbel.h */,
+				6DA2C8D82600A07300B5A322 /* UITextField+MSDTextFile.m */,
+			);
+			path = MSDEncapsulation;
+			sourceTree = "<group>";
+		};
+		6DA2C8E42600A15700B5A322 /* MVVM_Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6DA2C8E82600A1B700B5A322 /* MSD_MVVM_ViewController.h */,
+				6DA2C8E92600A1B700B5A322 /* MSD_MVVM_ViewController.m */,
+				6D41EE462601049700EF9838 /* MSD_MVVM_View.h */,
+				6D41EE472601049700EF9838 /* MSD_MVVM_View.m */,
+			);
+			path = MVVM_Controller;
+			sourceTree = "<group>";
+		};
+		6DA2C8E52600A15700B5A322 /* MVVM_Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DA2C8EE2600A2B700B5A322 /* MSD_MVVM_Model.h */,
+				6DA2C8EF2600A2B700B5A322 /* MSD_MVVM_Model.m */,
+			);
+			path = MVVM_Model;
+			sourceTree = "<group>";
+		};
+		6DA2C8E62600A15700B5A322 /* MVVM_ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6D41EE402601019A00EF9838 /* MVVM_ViewModel.h */,
+				6D41EE412601019A00EF9838 /* MVVM_ViewModel.m */,
+			);
+			path = MVVM_ViewModel;
+			sourceTree = "<group>";
+		};
+		6DA2C8E72600A15700B5A322 /* MVVM_View */ = {
+			isa = PBXGroup;
+			children = (
+				6D41EE3A2600FF5E00EF9838 /* MSD_MVVM_Cell.h */,
+				6D41EE3B2600FF5E00EF9838 /* MSD_MVVM_Cell.m */,
+			);
+			path = MVVM_View;
+			sourceTree = "<group>";
+		};
+		6DA2C8F52600AD3800B5A322 /* MVVM_Base */ = {
+			isa = PBXGroup;
+			children = (
+				6DA2C8F62600AD5900B5A322 /* MVVM_Base_ViewController.h */,
+				6DA2C8F72600AD5900B5A322 /* MVVM_Base_ViewController.m */,
+				6DA2C8FC2600AD8D00B5A322 /* MVVM_Base_View.h */,
+				6DA2C8FD2600AD8D00B5A322 /* MVVM_Base_View.m */,
+			);
+			path = MVVM_Base;
 			sourceTree = "<group>";
 		};
 		E1BEDCB25A9AFF48FB2B218B /* Frameworks */ = {
@@ -269,6 +447,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DA2C87D2600970600B5A322 /* LaunchScreen.storyboard in Resources */,
+				6DA2C8DA2600A07300B5A322 /* tabbar_classification_fill@2x.png in Resources */,
 				6DA2C87A2600970600B5A322 /* Assets.xcassets in Resources */,
 				6DA2C8752600970400B5A322 /* Main.storyboard in Resources */,
 			);
@@ -320,10 +499,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DA2C8DF2600A07300B5A322 /* UIButton+MSDButton.m in Sources */,
+				6D41EE3C2600FF5E00EF9838 /* MSD_MVVM_Cell.m in Sources */,
+				6D41EE482601049700EF9838 /* MSD_MVVM_View.m in Sources */,
+				6DA2C8DE2600A07300B5A322 /* UILabel+Labbel.m in Sources */,
 				6DA2C8802600970600B5A322 /* main.m in Sources */,
+				6DA2C8E02600A07300B5A322 /* UITextField+MSDTextFile.m in Sources */,
+				6DA2C8D92600A07300B5A322 /* MXTabBarCenterButton.m in Sources */,
+				6DA2C8FE2600AD8D00B5A322 /* MVVM_Base_View.m in Sources */,
+				6DA2C8DD2600A07300B5A322 /* UIImageView+ImageView.m in Sources */,
+				6DA2C8EA2600A1B700B5A322 /* MSD_MVVM_ViewController.m in Sources */,
+				6DA2C8DB2600A07300B5A322 /* MXTabBarController.m in Sources */,
+				6DA2C8F02600A2B700B5A322 /* MSD_MVVM_Model.m in Sources */,
 				6DA2C8722600970400B5A322 /* ViewController.m in Sources */,
 				6DA2C86C2600970400B5A322 /* AppDelegate.m in Sources */,
 				6DA2C8782600970400B5A322 /* ios_Framework.xcdatamodeld in Sources */,
+				6DA2C8DC2600A07300B5A322 /* MXTabBar.m in Sources */,
+				6DA2C8F82600AD5900B5A322 /* MVVM_Base_ViewController.m in Sources */,
+				6D41EE422601019A00EF9838 /* MVVM_ViewModel.m in Sources */,
 				6DA2C86F2600970400B5A322 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +692,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UQW457Z644;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ios_Framework/MSDManage/PHCfile/PCHFile.pch";
 				INFOPLIST_FILE = ios_Framework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -507,6 +702,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "mashudong.ios-Framework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -518,6 +714,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UQW457Z644;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ios_Framework/MSDManage/PHCfile/PCHFile.pch";
 				INFOPLIST_FILE = ios_Framework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -526,6 +724,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "mashudong.ios-Framework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
